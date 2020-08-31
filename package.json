@@ -1,0 +1,24 @@
+{
+  "name": "@yfi/berries-contract",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "truffle build",
+    "compile": "truffle compile",
+    "lint": "solium --dir contracts",
+    "lint-fix": "solium --dir contracts",
+    "test": "truffle test",
+    "watch": "truffle watch"
+  },
+  "dependencies": {
+    "truffle": "^5.1.41",
+    "truffle-flattener": "^1.4.4"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts": "^3.1.0",
+    "@openzeppelin/test-helpers": "^0.5.6",
+    "solium": "^1.2.5",
+    "solium-plugin-security": "^0.1.1"
+  }
+}
